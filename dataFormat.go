@@ -1,4 +1,4 @@
-package wdago
+package WdaGo
 
 type WdaSession struct {
 	url       string
