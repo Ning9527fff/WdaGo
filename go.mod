@@ -1,4 +1,4 @@
-module WdaGo
+module github.com/Ning9527fff/WdaGo
 
 go 1.24.5
 
