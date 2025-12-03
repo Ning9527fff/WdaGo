@@ -24,6 +24,10 @@ const (
 	ClassChain      = 5
 )
 
+func SetDebugLog() {
+	log.SetLogLevel(log.DebugLevel)
+}
+
 func GetWdaSession(url string) *WdaSession {
 
 	header := map[string]string{
